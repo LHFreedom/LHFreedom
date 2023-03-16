@@ -26,10 +26,12 @@
 /* 开发板硬件bsp头文件 */
 #include "bsp_led.h"
 #include "bsp_usart.h"
-
+void bsp(void);
 
 int main(void)
 {	
   
 }
+void bsp_init(void )
+{}
 /********************************END OF FILE****************************/
